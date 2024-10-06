@@ -1,0 +1,58 @@
+# Packed archives I tend to use
+*.7z
+*.zip
+*.rar
+*.tar.gz
+*.tar
+*.gzip
+
+# Godot specific
+import/
+.export/
+export_presets.cfg
+/android
+*.pck
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.exe
+
+# Godot editor-specific files
+*.godot/
+*.import/
+
+# Backup files
+*.bak
+*.old
+
+# Log files
+*.log
+
+# Cache files
+.cache/
+
+# Caches and project data for Visual Studio Code, Rider, or other IDEs
+.vscode/
+.idea/
+*.sln
+*.userprefs
+
+# Ignore temporary files created by Godot while editing scenes
+*.tmp
+
+# Ignore any builds or export directories
+build/
+bin/
+exports/
+
+# Ignore compiled bytecode files
+*.pyc
+__pycache__/
+
+# Ignore system-specific temporary files
+*.swp
+*.swo
+
+# Ignore files related to external libraries and assets (if applicable)
+node_modules/

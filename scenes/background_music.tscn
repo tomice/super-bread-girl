@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://1phhf8jdjbe7"]
+
+[ext_resource type="AudioStream" uid="uid://dyhl3a0pcitha" path="res://sound/Virus.ogg" id="2_s1jut"]
+[ext_resource type="Script" path="res://scripts/AudioManager.gd" id="2_w3dm5"]
+
+[node name="AudioManager" type="Node"]
+script = ExtResource("2_w3dm5")
+music_stream = ExtResource("2_s1jut")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+autoplay = true

@@ -1,0 +1,624 @@
+[gd_scene load_steps=5 format=3 uid="uid://b64hbkak41f48"]
+
+[ext_resource type="PackedScene" uid="uid://b7f02fpr2eti6" path="res://scenes/world.tscn" id="1_kjxfa"]
+[ext_resource type="PackedScene" uid="uid://bdwsww0cnkt31" path="res://scenes/spikes.tscn" id="2_cnha2"]
+[ext_resource type="PackedScene" uid="uid://b2urj0wdpcckw" path="res://scenes/level_seven.tscn" id="2_kkje3"]
+[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/heart.tscn" id="3_7747e"]
+
+[node name="LevelSix" instance=ExtResource("1_kjxfa")]
+next_level = ExtResource("2_kkje3")
+
+[node name="LevelTileMap" parent="." index="2"]
+layer_0/tile_data = PackedInt32Array(65532, 262144, 3, 65533, 65536, 3, 65534, 65536, 3, 65535, 65536, 3, 0, 65536, 3, 1, 65536, 3, 2, 458752, 0, -4, 196608, 1, -65540, 196608, 1, -131076, 196608, 1, -196612, 196608, 1, -262148, 196608, 1, -327684, 196608, 1, -393220, 196608, 1, -458756, 196608, 1, -524292, 196608, 1, -589828, 196608, 1, -655364, 196608, 1, -720900, 196608, 0, 65539, 65536, 3, 65540, 65536, 3, 65541, 65536, 3, 65542, 65536, 3, 65543, 65536, 3, 65544, 65536, 3, 65545, 65536, 3, 65546, 65536, 3, 65547, 65536, 3, 65548, 65536, 3, 65549, 65536, 3, 65550, 65536, 3, 65551, 65536, 3, 65552, 65536, 3, 65553, 65536, 3, 65554, 65536, 3, 65555, 65536, 3, 65556, 65536, 3, 65557, 65536, 3, 65558, 65536, 3, 65559, 65536, 3, 65560, 65536, 3, 65561, 65536, 3, 65562, 65536, 3, 65563, 65536, 3, 65564, 65536, 3, 65565, 65536, 3, 65566, 65536, 3, 65567, 65536, 3, 65568, 65536, 3, 65569, 65536, 3, 65570, 65536, 3, 65571, 65536, 3, 65572, 65536, 3, 65573, 65536, 3, 65574, 65536, 3, 65575, 65536, 3, 65576, 65536, 3, 65577, 65536, 3, 65578, 65536, 3, 65579, 65536, 3, 65580, 458752, 3, 65538, 262144, 3, 44, 196608, 1, -65492, 262144, 0, -65491, 65536, 3, -65490, 65536, 3, -65489, 131072, 3, -131062, 0, 3, -131061, 131072, 3, -262128, 196608, 3, -131049, 196608, 3, -196571, 131072, 3, -196572, 0, 3, 65598, 196608, 3, 65593, 196608, 3, 65606, 196608, 3, 196658, 196608, 3)
+
+[node name="Spikes" parent="." index="4" instance=ExtResource("2_cnha2")]
+position = Vector2(48, 16)
+
+[node name="Spikes2" parent="." index="5" instance=ExtResource("2_cnha2")]
+position = Vector2(64, 16)
+
+[node name="Spikes3" parent="." index="6" instance=ExtResource("2_cnha2")]
+position = Vector2(80, 16)
+
+[node name="Spikes4" parent="." index="7" instance=ExtResource("2_cnha2")]
+position = Vector2(96, 16)
+
+[node name="Spikes5" parent="." index="8" instance=ExtResource("2_cnha2")]
+position = Vector2(112, 16)
+
+[node name="Spikes6" parent="." index="9" instance=ExtResource("2_cnha2")]
+position = Vector2(128, 16)
+
+[node name="Spikes7" parent="." index="10" instance=ExtResource("2_cnha2")]
+position = Vector2(144, 16)
+
+[node name="Spikes8" parent="." index="11" instance=ExtResource("2_cnha2")]
+position = Vector2(160, 16)
+
+[node name="Spikes9" parent="." index="12" instance=ExtResource("2_cnha2")]
+position = Vector2(176, 16)
+
+[node name="Spikes10" parent="." index="13" instance=ExtResource("2_cnha2")]
+position = Vector2(192, 16)
+
+[node name="Spikes11" parent="." index="14" instance=ExtResource("2_cnha2")]
+position = Vector2(208, 16)
+
+[node name="Spikes12" parent="." index="15" instance=ExtResource("2_cnha2")]
+position = Vector2(224, 16)
+
+[node name="Spikes13" parent="." index="16" instance=ExtResource("2_cnha2")]
+position = Vector2(240, 16)
+
+[node name="Spikes14" parent="." index="17" instance=ExtResource("2_cnha2")]
+position = Vector2(256, 16)
+
+[node name="Spikes15" parent="." index="18" instance=ExtResource("2_cnha2")]
+position = Vector2(272, 16)
+
+[node name="Spikes16" parent="." index="19" instance=ExtResource("2_cnha2")]
+position = Vector2(288, 16)
+
+[node name="Spikes17" parent="." index="20" instance=ExtResource("2_cnha2")]
+position = Vector2(304, 16)
+
+[node name="Spikes18" parent="." index="21" instance=ExtResource("2_cnha2")]
+position = Vector2(320, 16)
+
+[node name="Spikes19" parent="." index="22" instance=ExtResource("2_cnha2")]
+position = Vector2(336, 16)
+
+[node name="Spikes20" parent="." index="23" instance=ExtResource("2_cnha2")]
+position = Vector2(352, 16)
+
+[node name="Spikes21" parent="." index="24" instance=ExtResource("2_cnha2")]
+position = Vector2(368, 16)
+
+[node name="Spikes22" parent="." index="25" instance=ExtResource("2_cnha2")]
+position = Vector2(384, 16)
+
+[node name="Spikes23" parent="." index="26" instance=ExtResource("2_cnha2")]
+position = Vector2(400, 16)
+
+[node name="Spikes24" parent="." index="27" instance=ExtResource("2_cnha2")]
+position = Vector2(416, 16)
+
+[node name="Spikes25" parent="." index="28" instance=ExtResource("2_cnha2")]
+position = Vector2(432, 16)
+
+[node name="Spikes26" parent="." index="29" instance=ExtResource("2_cnha2")]
+position = Vector2(448, 16)
+
+[node name="Spikes27" parent="." index="30" instance=ExtResource("2_cnha2")]
+position = Vector2(464, 16)
+
+[node name="Spikes28" parent="." index="31" instance=ExtResource("2_cnha2")]
+position = Vector2(480, 16)
+
+[node name="Spikes29" parent="." index="32" instance=ExtResource("2_cnha2")]
+position = Vector2(496, 16)
+
+[node name="Spikes30" parent="." index="33" instance=ExtResource("2_cnha2")]
+position = Vector2(512, 16)
+
+[node name="Spikes31" parent="." index="34" instance=ExtResource("2_cnha2")]
+position = Vector2(528, 16)
+
+[node name="Spikes32" parent="." index="35" instance=ExtResource("2_cnha2")]
+position = Vector2(544, 16)
+
+[node name="Spikes33" parent="." index="36" instance=ExtResource("2_cnha2")]
+position = Vector2(560, 16)
+
+[node name="Spikes34" parent="." index="37" instance=ExtResource("2_cnha2")]
+position = Vector2(576, 16)
+
+[node name="Spikes35" parent="." index="38" instance=ExtResource("2_cnha2")]
+position = Vector2(592, 16)
+
+[node name="Spikes36" parent="." index="39" instance=ExtResource("2_cnha2")]
+position = Vector2(608, 16)
+
+[node name="Spikes37" parent="." index="40" instance=ExtResource("2_cnha2")]
+position = Vector2(624, 16)
+
+[node name="Spikes38" parent="." index="41" instance=ExtResource("2_cnha2")]
+position = Vector2(640, 16)
+
+[node name="Spikes39" parent="." index="42" instance=ExtResource("2_cnha2")]
+position = Vector2(656, 16)
+
+[node name="Spikes40" parent="." index="43" instance=ExtResource("2_cnha2")]
+position = Vector2(672, 16)
+
+[node name="Heart" parent="." index="44" instance=ExtResource("3_7747e")]
+position = Vector2(176, -40)
+
+[node name="Heart2" parent="." index="45" instance=ExtResource("3_7747e")]
+position = Vector2(376, -40)
+
+[node name="Heart3" parent="." index="46" instance=ExtResource("3_7747e")]
+position = Vector2(696, 8)
+
+[node name="Heart4" parent="." index="47" instance=ExtResource("3_7747e")]
+position = Vector2(1128, 8)
+
+[node name="Spikes41" parent="." index="48" instance=ExtResource("2_cnha2")]
+position = Vector2(576, 128)
+
+[node name="Spikes42" parent="." index="49" instance=ExtResource("2_cnha2")]
+position = Vector2(592, 128)
+
+[node name="Spikes43" parent="." index="50" instance=ExtResource("2_cnha2")]
+position = Vector2(608, 128)
+
+[node name="Spikes44" parent="." index="51" instance=ExtResource("2_cnha2")]
+position = Vector2(624, 128)
+
+[node name="Spikes45" parent="." index="52" instance=ExtResource("2_cnha2")]
+position = Vector2(640, 128)
+
+[node name="Spikes46" parent="." index="53" instance=ExtResource("2_cnha2")]
+position = Vector2(656, 128)
+
+[node name="Spikes47" parent="." index="54" instance=ExtResource("2_cnha2")]
+position = Vector2(672, 128)
+
+[node name="Spikes48" parent="." index="55" instance=ExtResource("2_cnha2")]
+position = Vector2(688, 128)
+
+[node name="Spikes49" parent="." index="56" instance=ExtResource("2_cnha2")]
+position = Vector2(704, 128)
+
+[node name="Spikes50" parent="." index="57" instance=ExtResource("2_cnha2")]
+position = Vector2(720, 128)
+
+[node name="Spikes51" parent="." index="58" instance=ExtResource("2_cnha2")]
+position = Vector2(736, 128)
+
+[node name="Spikes52" parent="." index="59" instance=ExtResource("2_cnha2")]
+position = Vector2(752, 128)
+
+[node name="Spikes53" parent="." index="60" instance=ExtResource("2_cnha2")]
+position = Vector2(768, 128)
+
+[node name="Spikes54" parent="." index="61" instance=ExtResource("2_cnha2")]
+position = Vector2(784, 128)
+
+[node name="Spikes55" parent="." index="62" instance=ExtResource("2_cnha2")]
+position = Vector2(800, 128)
+
+[node name="Spikes56" parent="." index="63" instance=ExtResource("2_cnha2")]
+position = Vector2(816, 128)
+
+[node name="Spikes57" parent="." index="64" instance=ExtResource("2_cnha2")]
+position = Vector2(832, 128)
+
+[node name="Spikes58" parent="." index="65" instance=ExtResource("2_cnha2")]
+position = Vector2(848, 128)
+
+[node name="Spikes59" parent="." index="66" instance=ExtResource("2_cnha2")]
+position = Vector2(864, 128)
+
+[node name="Spikes60" parent="." index="67" instance=ExtResource("2_cnha2")]
+position = Vector2(880, 128)
+
+[node name="Spikes61" parent="." index="68" instance=ExtResource("2_cnha2")]
+position = Vector2(896, 128)
+
+[node name="Spikes62" parent="." index="69" instance=ExtResource("2_cnha2")]
+position = Vector2(912, 128)
+
+[node name="Spikes63" parent="." index="70" instance=ExtResource("2_cnha2")]
+position = Vector2(928, 128)
+
+[node name="Spikes64" parent="." index="71" instance=ExtResource("2_cnha2")]
+position = Vector2(944, 128)
+
+[node name="Spikes65" parent="." index="72" instance=ExtResource("2_cnha2")]
+position = Vector2(960, 128)
+
+[node name="Spikes66" parent="." index="73" instance=ExtResource("2_cnha2")]
+position = Vector2(976, 128)
+
+[node name="Spikes67" parent="." index="74" instance=ExtResource("2_cnha2")]
+position = Vector2(992, 128)
+
+[node name="Spikes68" parent="." index="75" instance=ExtResource("2_cnha2")]
+position = Vector2(1008, 128)
+
+[node name="Spikes69" parent="." index="76" instance=ExtResource("2_cnha2")]
+position = Vector2(1024, 128)
+
+[node name="Spikes70" parent="." index="77" instance=ExtResource("2_cnha2")]
+position = Vector2(1040, 128)
+
+[node name="Spikes71" parent="." index="78" instance=ExtResource("2_cnha2")]
+position = Vector2(1056, 128)
+
+[node name="Spikes72" parent="." index="79" instance=ExtResource("2_cnha2")]
+position = Vector2(1072, 128)
+
+[node name="Spikes73" parent="." index="80" instance=ExtResource("2_cnha2")]
+position = Vector2(1088, 128)
+
+[node name="Spikes74" parent="." index="81" instance=ExtResource("2_cnha2")]
+position = Vector2(1104, 128)
+
+[node name="Spikes75" parent="." index="82" instance=ExtResource("2_cnha2")]
+position = Vector2(1120, 128)
+
+[node name="Spikes76" parent="." index="83" instance=ExtResource("2_cnha2")]
+position = Vector2(1136, 128)
+
+[node name="Spikes77" parent="." index="84" instance=ExtResource("2_cnha2")]
+position = Vector2(1152, 128)
+
+[node name="Spikes78" parent="." index="85" instance=ExtResource("2_cnha2")]
+position = Vector2(1168, 128)
+
+[node name="Spikes79" parent="." index="86" instance=ExtResource("2_cnha2")]
+position = Vector2(1184, 128)
+
+[node name="Spikes80" parent="." index="87" instance=ExtResource("2_cnha2")]
+position = Vector2(1200, 128)
+
+[node name="Spikes81" parent="." index="88" instance=ExtResource("2_cnha2")]
+position = Vector2(1216, 128)
+
+[node name="Spikes82" parent="." index="89" instance=ExtResource("2_cnha2")]
+position = Vector2(1232, 128)
+
+[node name="Spikes83" parent="." index="90" instance=ExtResource("2_cnha2")]
+position = Vector2(1248, 128)
+
+[node name="Spikes84" parent="." index="91" instance=ExtResource("2_cnha2")]
+position = Vector2(1264, 128)
+
+[node name="Spikes85" parent="." index="92" instance=ExtResource("2_cnha2")]
+position = Vector2(1280, 128)
+
+[node name="Spikes86" parent="." index="93" instance=ExtResource("2_cnha2")]
+position = Vector2(1296, 128)
+
+[node name="Spikes87" parent="." index="94" instance=ExtResource("2_cnha2")]
+position = Vector2(1312, 128)
+
+[node name="Spikes88" parent="." index="95" instance=ExtResource("2_cnha2")]
+position = Vector2(1328, 128)
+
+[node name="Spikes89" parent="." index="96" instance=ExtResource("2_cnha2")]
+position = Vector2(1344, 128)
+
+[node name="Spikes90" parent="." index="97" instance=ExtResource("2_cnha2")]
+position = Vector2(1360, 128)
+
+[node name="Spikes91" parent="." index="98" instance=ExtResource("2_cnha2")]
+position = Vector2(1376, 128)
+
+[node name="Spikes92" parent="." index="99" instance=ExtResource("2_cnha2")]
+position = Vector2(1392, 128)
+
+[node name="Spikes93" parent="." index="100" instance=ExtResource("2_cnha2")]
+position = Vector2(1408, 128)
+
+[node name="Spikes94" parent="." index="101" instance=ExtResource("2_cnha2")]
+position = Vector2(1424, 128)
+
+[node name="Spikes95" parent="." index="102" instance=ExtResource("2_cnha2")]
+position = Vector2(1440, 128)
+
+[node name="Spikes96" parent="." index="103" instance=ExtResource("2_cnha2")]
+position = Vector2(1456, 128)
+
+[node name="Spikes97" parent="." index="104" instance=ExtResource("2_cnha2")]
+position = Vector2(1472, 128)
+
+[node name="Spikes98" parent="." index="105" instance=ExtResource("2_cnha2")]
+position = Vector2(1488, 128)
+
+[node name="Spikes99" parent="." index="106" instance=ExtResource("2_cnha2")]
+position = Vector2(1504, 128)
+
+[node name="Spikes100" parent="." index="107" instance=ExtResource("2_cnha2")]
+position = Vector2(1520, 128)
+
+[node name="Spikes101" parent="." index="108" instance=ExtResource("2_cnha2")]
+position = Vector2(1536, 128)
+
+[node name="Spikes102" parent="." index="109" instance=ExtResource("2_cnha2")]
+position = Vector2(1552, 128)
+
+[node name="Spikes103" parent="." index="110" instance=ExtResource("2_cnha2")]
+position = Vector2(1568, 128)
+
+[node name="Spikes104" parent="." index="111" instance=ExtResource("2_cnha2")]
+position = Vector2(1584, 128)
+
+[node name="Spikes105" parent="." index="112" instance=ExtResource("2_cnha2")]
+position = Vector2(1600, 128)
+
+[node name="Spikes106" parent="." index="113" instance=ExtResource("2_cnha2")]
+position = Vector2(1616, 128)
+
+[node name="Spikes107" parent="." index="114" instance=ExtResource("2_cnha2")]
+position = Vector2(1632, 128)
+
+[node name="Spikes108" parent="." index="115" instance=ExtResource("2_cnha2")]
+position = Vector2(1648, 128)
+
+[node name="Spikes109" parent="." index="116" instance=ExtResource("2_cnha2")]
+position = Vector2(1664, 128)
+
+[node name="Spikes110" parent="." index="117" instance=ExtResource("2_cnha2")]
+position = Vector2(1680, 128)
+
+[node name="Spikes111" parent="." index="118" instance=ExtResource("2_cnha2")]
+position = Vector2(1696, 128)
+
+[node name="Spikes112" parent="." index="119" instance=ExtResource("2_cnha2")]
+position = Vector2(1712, 128)
+
+[node name="Spikes113" parent="." index="120" instance=ExtResource("2_cnha2")]
+position = Vector2(1728, 128)
+
+[node name="Spikes114" parent="." index="121" instance=ExtResource("2_cnha2")]
+position = Vector2(1744, 128)
+
+[node name="Spikes115" parent="." index="122" instance=ExtResource("2_cnha2")]
+position = Vector2(1760, 128)
+
+[node name="Spikes116" parent="." index="123" instance=ExtResource("2_cnha2")]
+position = Vector2(1776, 128)
+
+[node name="Spikes117" parent="." index="124" instance=ExtResource("2_cnha2")]
+position = Vector2(1792, 128)
+
+[node name="Spikes118" parent="." index="125" instance=ExtResource("2_cnha2")]
+position = Vector2(1808, 128)
+
+[node name="Spikes119" parent="." index="126" instance=ExtResource("2_cnha2")]
+position = Vector2(1824, 128)
+
+[node name="Spikes120" parent="." index="127" instance=ExtResource("2_cnha2")]
+position = Vector2(1840, 128)
+
+[node name="Spikes121" parent="." index="128" instance=ExtResource("2_cnha2")]
+position = Vector2(-696, 128)
+
+[node name="Spikes122" parent="." index="129" instance=ExtResource("2_cnha2")]
+position = Vector2(-680, 128)
+
+[node name="Spikes123" parent="." index="130" instance=ExtResource("2_cnha2")]
+position = Vector2(-664, 128)
+
+[node name="Spikes124" parent="." index="131" instance=ExtResource("2_cnha2")]
+position = Vector2(-648, 128)
+
+[node name="Spikes125" parent="." index="132" instance=ExtResource("2_cnha2")]
+position = Vector2(-632, 128)
+
+[node name="Spikes126" parent="." index="133" instance=ExtResource("2_cnha2")]
+position = Vector2(-616, 128)
+
+[node name="Spikes127" parent="." index="134" instance=ExtResource("2_cnha2")]
+position = Vector2(-600, 128)
+
+[node name="Spikes128" parent="." index="135" instance=ExtResource("2_cnha2")]
+position = Vector2(-584, 128)
+
+[node name="Spikes129" parent="." index="136" instance=ExtResource("2_cnha2")]
+position = Vector2(-568, 128)
+
+[node name="Spikes130" parent="." index="137" instance=ExtResource("2_cnha2")]
+position = Vector2(-552, 128)
+
+[node name="Spikes131" parent="." index="138" instance=ExtResource("2_cnha2")]
+position = Vector2(-536, 128)
+
+[node name="Spikes132" parent="." index="139" instance=ExtResource("2_cnha2")]
+position = Vector2(-520, 128)
+
+[node name="Spikes133" parent="." index="140" instance=ExtResource("2_cnha2")]
+position = Vector2(-504, 128)
+
+[node name="Spikes134" parent="." index="141" instance=ExtResource("2_cnha2")]
+position = Vector2(-488, 128)
+
+[node name="Spikes135" parent="." index="142" instance=ExtResource("2_cnha2")]
+position = Vector2(-472, 128)
+
+[node name="Spikes136" parent="." index="143" instance=ExtResource("2_cnha2")]
+position = Vector2(-456, 128)
+
+[node name="Spikes137" parent="." index="144" instance=ExtResource("2_cnha2")]
+position = Vector2(-440, 128)
+
+[node name="Spikes138" parent="." index="145" instance=ExtResource("2_cnha2")]
+position = Vector2(-424, 128)
+
+[node name="Spikes139" parent="." index="146" instance=ExtResource("2_cnha2")]
+position = Vector2(-408, 128)
+
+[node name="Spikes140" parent="." index="147" instance=ExtResource("2_cnha2")]
+position = Vector2(-392, 128)
+
+[node name="Spikes141" parent="." index="148" instance=ExtResource("2_cnha2")]
+position = Vector2(-376, 128)
+
+[node name="Spikes142" parent="." index="149" instance=ExtResource("2_cnha2")]
+position = Vector2(-360, 128)
+
+[node name="Spikes143" parent="." index="150" instance=ExtResource("2_cnha2")]
+position = Vector2(-344, 128)
+
+[node name="Spikes144" parent="." index="151" instance=ExtResource("2_cnha2")]
+position = Vector2(-328, 128)
+
+[node name="Spikes145" parent="." index="152" instance=ExtResource("2_cnha2")]
+position = Vector2(-312, 128)
+
+[node name="Spikes146" parent="." index="153" instance=ExtResource("2_cnha2")]
+position = Vector2(-296, 128)
+
+[node name="Spikes147" parent="." index="154" instance=ExtResource("2_cnha2")]
+position = Vector2(-280, 128)
+
+[node name="Spikes148" parent="." index="155" instance=ExtResource("2_cnha2")]
+position = Vector2(-264, 128)
+
+[node name="Spikes149" parent="." index="156" instance=ExtResource("2_cnha2")]
+position = Vector2(-248, 128)
+
+[node name="Spikes150" parent="." index="157" instance=ExtResource("2_cnha2")]
+position = Vector2(-232, 128)
+
+[node name="Spikes151" parent="." index="158" instance=ExtResource("2_cnha2")]
+position = Vector2(-216, 128)
+
+[node name="Spikes152" parent="." index="159" instance=ExtResource("2_cnha2")]
+position = Vector2(-200, 128)
+
+[node name="Spikes153" parent="." index="160" instance=ExtResource("2_cnha2")]
+position = Vector2(-184, 128)
+
+[node name="Spikes154" parent="." index="161" instance=ExtResource("2_cnha2")]
+position = Vector2(-168, 128)
+
+[node name="Spikes155" parent="." index="162" instance=ExtResource("2_cnha2")]
+position = Vector2(-152, 128)
+
+[node name="Spikes156" parent="." index="163" instance=ExtResource("2_cnha2")]
+position = Vector2(-136, 128)
+
+[node name="Spikes157" parent="." index="164" instance=ExtResource("2_cnha2")]
+position = Vector2(-120, 128)
+
+[node name="Spikes158" parent="." index="165" instance=ExtResource("2_cnha2")]
+position = Vector2(-104, 128)
+
+[node name="Spikes159" parent="." index="166" instance=ExtResource("2_cnha2")]
+position = Vector2(-88, 128)
+
+[node name="Spikes160" parent="." index="167" instance=ExtResource("2_cnha2")]
+position = Vector2(-72, 128)
+
+[node name="Spikes161" parent="." index="168" instance=ExtResource("2_cnha2")]
+position = Vector2(-56, 128)
+
+[node name="Spikes162" parent="." index="169" instance=ExtResource("2_cnha2")]
+position = Vector2(-40, 128)
+
+[node name="Spikes163" parent="." index="170" instance=ExtResource("2_cnha2")]
+position = Vector2(-24, 128)
+
+[node name="Spikes164" parent="." index="171" instance=ExtResource("2_cnha2")]
+position = Vector2(-8, 128)
+
+[node name="Spikes165" parent="." index="172" instance=ExtResource("2_cnha2")]
+position = Vector2(8, 128)
+
+[node name="Spikes166" parent="." index="173" instance=ExtResource("2_cnha2")]
+position = Vector2(24, 128)
+
+[node name="Spikes167" parent="." index="174" instance=ExtResource("2_cnha2")]
+position = Vector2(40, 128)
+
+[node name="Spikes168" parent="." index="175" instance=ExtResource("2_cnha2")]
+position = Vector2(56, 128)
+
+[node name="Spikes169" parent="." index="176" instance=ExtResource("2_cnha2")]
+position = Vector2(72, 128)
+
+[node name="Spikes170" parent="." index="177" instance=ExtResource("2_cnha2")]
+position = Vector2(88, 128)
+
+[node name="Spikes171" parent="." index="178" instance=ExtResource("2_cnha2")]
+position = Vector2(104, 128)
+
+[node name="Spikes172" parent="." index="179" instance=ExtResource("2_cnha2")]
+position = Vector2(120, 128)
+
+[node name="Spikes173" parent="." index="180" instance=ExtResource("2_cnha2")]
+position = Vector2(136, 128)
+
+[node name="Spikes174" parent="." index="181" instance=ExtResource("2_cnha2")]
+position = Vector2(152, 128)
+
+[node name="Spikes175" parent="." index="182" instance=ExtResource("2_cnha2")]
+position = Vector2(168, 128)
+
+[node name="Spikes176" parent="." index="183" instance=ExtResource("2_cnha2")]
+position = Vector2(184, 128)
+
+[node name="Spikes177" parent="." index="184" instance=ExtResource("2_cnha2")]
+position = Vector2(200, 128)
+
+[node name="Spikes178" parent="." index="185" instance=ExtResource("2_cnha2")]
+position = Vector2(216, 128)
+
+[node name="Spikes179" parent="." index="186" instance=ExtResource("2_cnha2")]
+position = Vector2(232, 128)
+
+[node name="Spikes180" parent="." index="187" instance=ExtResource("2_cnha2")]
+position = Vector2(248, 128)
+
+[node name="Spikes181" parent="." index="188" instance=ExtResource("2_cnha2")]
+position = Vector2(264, 128)
+
+[node name="Spikes182" parent="." index="189" instance=ExtResource("2_cnha2")]
+position = Vector2(280, 128)
+
+[node name="Spikes183" parent="." index="190" instance=ExtResource("2_cnha2")]
+position = Vector2(296, 128)
+
+[node name="Spikes184" parent="." index="191" instance=ExtResource("2_cnha2")]
+position = Vector2(312, 128)
+
+[node name="Spikes185" parent="." index="192" instance=ExtResource("2_cnha2")]
+position = Vector2(328, 128)
+
+[node name="Spikes186" parent="." index="193" instance=ExtResource("2_cnha2")]
+position = Vector2(344, 128)
+
+[node name="Spikes187" parent="." index="194" instance=ExtResource("2_cnha2")]
+position = Vector2(360, 128)
+
+[node name="Spikes188" parent="." index="195" instance=ExtResource("2_cnha2")]
+position = Vector2(376, 128)
+
+[node name="Spikes189" parent="." index="196" instance=ExtResource("2_cnha2")]
+position = Vector2(392, 128)
+
+[node name="Spikes190" parent="." index="197" instance=ExtResource("2_cnha2")]
+position = Vector2(408, 128)
+
+[node name="Spikes191" parent="." index="198" instance=ExtResource("2_cnha2")]
+position = Vector2(424, 128)
+
+[node name="Spikes192" parent="." index="199" instance=ExtResource("2_cnha2")]
+position = Vector2(440, 128)
+
+[node name="Spikes193" parent="." index="200" instance=ExtResource("2_cnha2")]
+position = Vector2(456, 128)
+
+[node name="Spikes194" parent="." index="201" instance=ExtResource("2_cnha2")]
+position = Vector2(472, 128)
+
+[node name="Spikes195" parent="." index="202" instance=ExtResource("2_cnha2")]
+position = Vector2(488, 128)
+
+[node name="Spikes196" parent="." index="203" instance=ExtResource("2_cnha2")]
+position = Vector2(504, 128)
+
+[node name="Spikes197" parent="." index="204" instance=ExtResource("2_cnha2")]
+position = Vector2(520, 128)
+
+[node name="Spikes198" parent="." index="205" instance=ExtResource("2_cnha2")]
+position = Vector2(536, 128)
+
+[node name="Spikes199" parent="." index="206" instance=ExtResource("2_cnha2")]
+position = Vector2(552, 128)
+
+[node name="Spikes200" parent="." index="207" instance=ExtResource("2_cnha2")]
+position = Vector2(568, 128)

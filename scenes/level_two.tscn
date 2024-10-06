@@ -1,0 +1,354 @@
+[gd_scene load_steps=5 format=3 uid="uid://bp2785ij04ktn"]
+
+[ext_resource type="PackedScene" uid="uid://b7f02fpr2eti6" path="res://scenes/world.tscn" id="1_xdqxu"]
+[ext_resource type="PackedScene" uid="uid://b20doirg3e3ji" path="res://scenes/level_three.tscn" id="2_bsube"]
+[ext_resource type="PackedScene" uid="uid://bdwsww0cnkt31" path="res://scenes/spikes.tscn" id="2_erpdm"]
+[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/heart.tscn" id="3_o6nby"]
+
+[node name="LevelTwo" instance=ExtResource("1_xdqxu")]
+next_level = ExtResource("2_bsube")
+
+[node name="LevelTileMap" parent="." index="2"]
+layer_0/tile_data = PackedInt32Array(0, 65536, 0, 1, 65536, 0, 2, 65536, 0, 3, 131072, 0, 65535, 65536, 0, 65534, 0, 0, 131071, 65536, 1, 65536, 65536, 1, 65537, 65536, 1, 65538, 65536, 1, 65539, 131072, 1, 131075, 327680, 2, 131076, 131072, 0, 196612, 327680, 2, 196611, 65536, 1, 262147, 65536, 2, 262146, 65536, 2, 262145, 65536, 2, 262144, 65536, 2, 327679, 65536, 2, 327678, 0, 2, 262142, 0, 1, 262143, 65536, 1, 196608, 65536, 1, 196609, 65536, 1, 196610, 65536, 1, 131074, 65536, 1, 131073, 65536, 1, 131072, 65536, 1, 196607, 65536, 1, 196606, 0, 1, 131070, 0, 1, 196613, 65536, 0, 196614, 65536, 0, 196615, 65536, 0, 196616, 65536, 0, 196617, 65536, 0, 196618, 393216, 2, 131082, 0, 1, 65546, 0, 1, 10, 0, 1, -65526, 0, 0, -196604, 0, 3, -196603, 65536, 3, -196602, 65536, 3, -196601, 65536, 3, -196600, 131072, 3, -65525, 65536, 0, -65524, 65536, 0, -65523, 65536, 0, 13, 65536, 1, 12, 65536, 1, 11, 65536, 1, 65547, 65536, 1, 65548, 65536, 1, 65549, 65536, 1, 131085, 65536, 1, 131084, 65536, 1, 131083, 65536, 1, 196619, 65536, 1, 196620, 65536, 1, 196621, 65536, 1, 262157, 65536, 2, 262156, 65536, 2, 262155, 65536, 2, 262154, 65536, 2, 262153, 65536, 2, 262152, 65536, 2, 262151, 65536, 2, 262150, 65536, 2, 262149, 65536, 2, 262148, 65536, 2, -65522, 65536, 0, -65521, 65536, 0, -65520, 65536, 0, -65519, 65536, 0, -65518, 65536, 0, -65517, 65536, 0, -65516, 65536, 0, -65515, 65536, 0, -65514, 65536, 0, -65513, 65536, 0, -65512, 65536, 0, -65511, 65536, 0, -65510, 65536, 0, -65509, 327680, 0, 27, 131072, 1, 26, 65536, 1, 25, 65536, 1, 24, 65536, 1, 23, 65536, 1, 22, 65536, 1, 21, 65536, 1, 20, 65536, 1, 19, 65536, 1, 18, 65536, 1, 17, 65536, 1, 16, 65536, 1, 15, 65536, 1, 14, 65536, 1, 65550, 65536, 1, 65551, 65536, 1, 65552, 65536, 1, 65553, 65536, 1, 65554, 65536, 1, 131090, 65536, 1, 131091, 65536, 1, 131092, 65536, 1, 131093, 65536, 1, 131094, 65536, 1, 131095, 65536, 1, 131096, 65536, 1, 131097, 65536, 1, 196633, 65536, 1, 196634, 65536, 1, 262170, 65536, 2, 262171, 131072, 2, 262169, 65536, 2, 262168, 65536, 2, 262167, 65536, 2, 262166, 65536, 2, 262165, 65536, 2, 262164, 65536, 2, 262163, 65536, 2, 262162, 65536, 2, 262161, 65536, 2, 262160, 65536, 2, 262159, 65536, 2, 262158, 65536, 2, 196622, 65536, 1, 196623, 65536, 1, 196624, 65536, 1, 196625, 65536, 1, 196626, 65536, 1, 196627, 65536, 1, 196628, 65536, 1, 196629, 65536, 1, 196630, 65536, 1, 196631, 65536, 1, 196632, 65536, 1, 131089, 65536, 1, 131088, 65536, 1, 131087, 65536, 1, 131086, 65536, 1, 65555, 65536, 1, 65556, 65536, 1, 65557, 65536, 1, 65558, 65536, 1, 65559, 65536, 1, 65560, 65536, 1, 65561, 65536, 1, 65562, 65536, 1, 65563, 131072, 1, 131098, 65536, 1, 131099, 131072, 1, 196635, 131072, 1, -262132, 0, 3, -262131, 65536, 3, -262130, 65536, 3, -262129, 65536, 3, -262128, 65536, 3, -262127, 131072, 3, -393195, 0, 3, -393194, 65536, 3, -393193, 458752, 0, -327657, 262144, 3, -327656, 65536, 3, -327655, 65536, 3, -327654, 131072, 3, -65508, 65536, 3, -65507, 131072, 3)
+
+[node name="Spikes" parent="." index="3" instance=ExtResource("2_erpdm")]
+position = Vector2(80, 48)
+
+[node name="Spikes2" parent="." index="4" instance=ExtResource("2_erpdm")]
+position = Vector2(96, 48)
+
+[node name="Spikes3" parent="." index="5" instance=ExtResource("2_erpdm")]
+position = Vector2(112, 48)
+
+[node name="Spikes4" parent="." index="6" instance=ExtResource("2_erpdm")]
+position = Vector2(128, 48)
+
+[node name="Spikes5" parent="." index="7" instance=ExtResource("2_erpdm")]
+position = Vector2(144, 48)
+
+[node name="Spikes6" parent="." index="8" instance=ExtResource("2_erpdm")]
+position = Vector2(160, -16)
+
+[node name="Spikes7" parent="." index="9" instance=ExtResource("2_erpdm")]
+position = Vector2(176, -16)
+
+[node name="Spikes8" parent="." index="10" instance=ExtResource("2_erpdm")]
+position = Vector2(192, -16)
+
+[node name="Spikes9" parent="." index="11" instance=ExtResource("2_erpdm")]
+position = Vector2(288, -16)
+
+[node name="Spikes10" parent="." index="12" instance=ExtResource("2_erpdm")]
+position = Vector2(304, -16)
+
+[node name="Spikes11" parent="." index="13" instance=ExtResource("2_erpdm")]
+position = Vector2(320, -16)
+
+[node name="Spikes12" parent="." index="14" instance=ExtResource("2_erpdm")]
+position = Vector2(336, -16)
+
+[node name="Spikes13" parent="." index="15" instance=ExtResource("2_erpdm")]
+position = Vector2(440, -16)
+
+[node name="Heart" parent="." index="16" instance=ExtResource("3_o6nby")]
+position = Vector2(104, -56)
+
+[node name="Heart2" parent="." index="17" instance=ExtResource("3_o6nby")]
+position = Vector2(216, -72)
+
+[node name="Heart3" parent="." index="18" instance=ExtResource("3_o6nby")]
+position = Vector2(280, -72)
+
+[node name="Heart4" parent="." index="19" instance=ExtResource("3_o6nby")]
+position = Vector2(376, -104)
+
+[node name="Heart5" parent="." index="20" instance=ExtResource("3_o6nby")]
+position = Vector2(472, -24)
+
+[node name="Spikes14" parent="." index="22" instance=ExtResource("2_erpdm")]
+position = Vector2(72, 176)
+
+[node name="Spikes15" parent="." index="23" instance=ExtResource("2_erpdm")]
+position = Vector2(40, 176)
+
+[node name="Spikes16" parent="." index="24" instance=ExtResource("2_erpdm")]
+position = Vector2(24, 176)
+
+[node name="Spikes17" parent="." index="25" instance=ExtResource("2_erpdm")]
+position = Vector2(56, 176)
+
+[node name="Spikes18" parent="." index="26" instance=ExtResource("2_erpdm")]
+position = Vector2(136, 176)
+
+[node name="Spikes19" parent="." index="27" instance=ExtResource("2_erpdm")]
+position = Vector2(104, 176)
+
+[node name="Spikes20" parent="." index="28" instance=ExtResource("2_erpdm")]
+position = Vector2(88, 176)
+
+[node name="Spikes21" parent="." index="29" instance=ExtResource("2_erpdm")]
+position = Vector2(120, 176)
+
+[node name="Spikes22" parent="." index="30" instance=ExtResource("2_erpdm")]
+position = Vector2(-56, 176)
+
+[node name="Spikes23" parent="." index="31" instance=ExtResource("2_erpdm")]
+position = Vector2(-88, 176)
+
+[node name="Spikes24" parent="." index="32" instance=ExtResource("2_erpdm")]
+position = Vector2(-104, 176)
+
+[node name="Spikes25" parent="." index="33" instance=ExtResource("2_erpdm")]
+position = Vector2(-72, 176)
+
+[node name="Spikes26" parent="." index="34" instance=ExtResource("2_erpdm")]
+position = Vector2(8, 176)
+
+[node name="Spikes27" parent="." index="35" instance=ExtResource("2_erpdm")]
+position = Vector2(-24, 176)
+
+[node name="Spikes28" parent="." index="36" instance=ExtResource("2_erpdm")]
+position = Vector2(-40, 176)
+
+[node name="Spikes29" parent="." index="37" instance=ExtResource("2_erpdm")]
+position = Vector2(-8, 176)
+
+[node name="Spikes30" parent="." index="38" instance=ExtResource("2_erpdm")]
+position = Vector2(328, 176)
+
+[node name="Spikes31" parent="." index="39" instance=ExtResource("2_erpdm")]
+position = Vector2(296, 176)
+
+[node name="Spikes32" parent="." index="40" instance=ExtResource("2_erpdm")]
+position = Vector2(280, 176)
+
+[node name="Spikes33" parent="." index="41" instance=ExtResource("2_erpdm")]
+position = Vector2(312, 176)
+
+[node name="Spikes34" parent="." index="42" instance=ExtResource("2_erpdm")]
+position = Vector2(392, 176)
+
+[node name="Spikes35" parent="." index="43" instance=ExtResource("2_erpdm")]
+position = Vector2(360, 176)
+
+[node name="Spikes36" parent="." index="44" instance=ExtResource("2_erpdm")]
+position = Vector2(344, 176)
+
+[node name="Spikes37" parent="." index="45" instance=ExtResource("2_erpdm")]
+position = Vector2(376, 176)
+
+[node name="Spikes38" parent="." index="46" instance=ExtResource("2_erpdm")]
+position = Vector2(200, 176)
+
+[node name="Spikes39" parent="." index="47" instance=ExtResource("2_erpdm")]
+position = Vector2(168, 176)
+
+[node name="Spikes40" parent="." index="48" instance=ExtResource("2_erpdm")]
+position = Vector2(152, 176)
+
+[node name="Spikes41" parent="." index="49" instance=ExtResource("2_erpdm")]
+position = Vector2(184, 176)
+
+[node name="Spikes42" parent="." index="50" instance=ExtResource("2_erpdm")]
+position = Vector2(264, 176)
+
+[node name="Spikes43" parent="." index="51" instance=ExtResource("2_erpdm")]
+position = Vector2(232, 176)
+
+[node name="Spikes44" parent="." index="52" instance=ExtResource("2_erpdm")]
+position = Vector2(216, 176)
+
+[node name="Spikes45" parent="." index="53" instance=ExtResource("2_erpdm")]
+position = Vector2(248, 176)
+
+[node name="Spikes46" parent="." index="54" instance=ExtResource("2_erpdm")]
+position = Vector2(584, 176)
+
+[node name="Spikes47" parent="." index="55" instance=ExtResource("2_erpdm")]
+position = Vector2(552, 176)
+
+[node name="Spikes48" parent="." index="56" instance=ExtResource("2_erpdm")]
+position = Vector2(536, 176)
+
+[node name="Spikes49" parent="." index="57" instance=ExtResource("2_erpdm")]
+position = Vector2(568, 176)
+
+[node name="Spikes50" parent="." index="58" instance=ExtResource("2_erpdm")]
+position = Vector2(648, 176)
+
+[node name="Spikes51" parent="." index="59" instance=ExtResource("2_erpdm")]
+position = Vector2(616, 176)
+
+[node name="Spikes52" parent="." index="60" instance=ExtResource("2_erpdm")]
+position = Vector2(600, 176)
+
+[node name="Spikes53" parent="." index="61" instance=ExtResource("2_erpdm")]
+position = Vector2(632, 176)
+
+[node name="Spikes54" parent="." index="62" instance=ExtResource("2_erpdm")]
+position = Vector2(456, 176)
+
+[node name="Spikes55" parent="." index="63" instance=ExtResource("2_erpdm")]
+position = Vector2(424, 176)
+
+[node name="Spikes56" parent="." index="64" instance=ExtResource("2_erpdm")]
+position = Vector2(408, 176)
+
+[node name="Spikes57" parent="." index="65" instance=ExtResource("2_erpdm")]
+position = Vector2(440, 176)
+
+[node name="Spikes58" parent="." index="66" instance=ExtResource("2_erpdm")]
+position = Vector2(520, 176)
+
+[node name="Spikes59" parent="." index="67" instance=ExtResource("2_erpdm")]
+position = Vector2(488, 176)
+
+[node name="Spikes60" parent="." index="68" instance=ExtResource("2_erpdm")]
+position = Vector2(472, 176)
+
+[node name="Spikes61" parent="." index="69" instance=ExtResource("2_erpdm")]
+position = Vector2(504, 176)
+
+[node name="Spikes62" parent="." index="70" instance=ExtResource("2_erpdm")]
+position = Vector2(840, 176)
+
+[node name="Spikes63" parent="." index="71" instance=ExtResource("2_erpdm")]
+position = Vector2(808, 176)
+
+[node name="Spikes64" parent="." index="72" instance=ExtResource("2_erpdm")]
+position = Vector2(792, 176)
+
+[node name="Spikes65" parent="." index="73" instance=ExtResource("2_erpdm")]
+position = Vector2(824, 176)
+
+[node name="Spikes66" parent="." index="74" instance=ExtResource("2_erpdm")]
+position = Vector2(904, 176)
+
+[node name="Spikes67" parent="." index="75" instance=ExtResource("2_erpdm")]
+position = Vector2(872, 176)
+
+[node name="Spikes68" parent="." index="76" instance=ExtResource("2_erpdm")]
+position = Vector2(856, 176)
+
+[node name="Spikes69" parent="." index="77" instance=ExtResource("2_erpdm")]
+position = Vector2(888, 176)
+
+[node name="Spikes70" parent="." index="78" instance=ExtResource("2_erpdm")]
+position = Vector2(712, 176)
+
+[node name="Spikes71" parent="." index="79" instance=ExtResource("2_erpdm")]
+position = Vector2(680, 176)
+
+[node name="Spikes72" parent="." index="80" instance=ExtResource("2_erpdm")]
+position = Vector2(664, 176)
+
+[node name="Spikes73" parent="." index="81" instance=ExtResource("2_erpdm")]
+position = Vector2(696, 176)
+
+[node name="Spikes74" parent="." index="82" instance=ExtResource("2_erpdm")]
+position = Vector2(776, 176)
+
+[node name="Spikes75" parent="." index="83" instance=ExtResource("2_erpdm")]
+position = Vector2(744, 176)
+
+[node name="Spikes76" parent="." index="84" instance=ExtResource("2_erpdm")]
+position = Vector2(728, 176)
+
+[node name="Spikes77" parent="." index="85" instance=ExtResource("2_erpdm")]
+position = Vector2(760, 176)
+
+[node name="Spikes78" parent="." index="86" instance=ExtResource("2_erpdm")]
+position = Vector2(-432, 176)
+
+[node name="Spikes79" parent="." index="87" instance=ExtResource("2_erpdm")]
+position = Vector2(-464, 176)
+
+[node name="Spikes80" parent="." index="88" instance=ExtResource("2_erpdm")]
+position = Vector2(-480, 176)
+
+[node name="Spikes81" parent="." index="89" instance=ExtResource("2_erpdm")]
+position = Vector2(-448, 176)
+
+[node name="Spikes82" parent="." index="90" instance=ExtResource("2_erpdm")]
+position = Vector2(-368, 176)
+
+[node name="Spikes83" parent="." index="91" instance=ExtResource("2_erpdm")]
+position = Vector2(-400, 176)
+
+[node name="Spikes84" parent="." index="92" instance=ExtResource("2_erpdm")]
+position = Vector2(-416, 176)
+
+[node name="Spikes85" parent="." index="93" instance=ExtResource("2_erpdm")]
+position = Vector2(-384, 176)
+
+[node name="Spikes86" parent="." index="94" instance=ExtResource("2_erpdm")]
+position = Vector2(-560, 176)
+
+[node name="Spikes87" parent="." index="95" instance=ExtResource("2_erpdm")]
+position = Vector2(-592, 176)
+
+[node name="Spikes88" parent="." index="96" instance=ExtResource("2_erpdm")]
+position = Vector2(-608, 176)
+
+[node name="Spikes89" parent="." index="97" instance=ExtResource("2_erpdm")]
+position = Vector2(-576, 176)
+
+[node name="Spikes90" parent="." index="98" instance=ExtResource("2_erpdm")]
+position = Vector2(-496, 176)
+
+[node name="Spikes91" parent="." index="99" instance=ExtResource("2_erpdm")]
+position = Vector2(-528, 176)
+
+[node name="Spikes92" parent="." index="100" instance=ExtResource("2_erpdm")]
+position = Vector2(-544, 176)
+
+[node name="Spikes93" parent="." index="101" instance=ExtResource("2_erpdm")]
+position = Vector2(-512, 176)
+
+[node name="Spikes94" parent="." index="102" instance=ExtResource("2_erpdm")]
+position = Vector2(-176, 176)
+
+[node name="Spikes95" parent="." index="103" instance=ExtResource("2_erpdm")]
+position = Vector2(-208, 176)
+
+[node name="Spikes96" parent="." index="104" instance=ExtResource("2_erpdm")]
+position = Vector2(-224, 176)
+
+[node name="Spikes97" parent="." index="105" instance=ExtResource("2_erpdm")]
+position = Vector2(-192, 176)
+
+[node name="Spikes98" parent="." index="106" instance=ExtResource("2_erpdm")]
+position = Vector2(-112, 176)
+
+[node name="Spikes99" parent="." index="107" instance=ExtResource("2_erpdm")]
+position = Vector2(-144, 176)
+
+[node name="Spikes100" parent="." index="108" instance=ExtResource("2_erpdm")]
+position = Vector2(-160, 176)
+
+[node name="Spikes101" parent="." index="109" instance=ExtResource("2_erpdm")]
+position = Vector2(-128, 176)
+
+[node name="Spikes102" parent="." index="110" instance=ExtResource("2_erpdm")]
+position = Vector2(-304, 176)
+
+[node name="Spikes103" parent="." index="111" instance=ExtResource("2_erpdm")]
+position = Vector2(-336, 176)
+
+[node name="Spikes104" parent="." index="112" instance=ExtResource("2_erpdm")]
+position = Vector2(-352, 176)
+
+[node name="Spikes105" parent="." index="113" instance=ExtResource("2_erpdm")]
+position = Vector2(-320, 176)
+
+[node name="Spikes106" parent="." index="114" instance=ExtResource("2_erpdm")]
+position = Vector2(-240, 176)
+
+[node name="Spikes107" parent="." index="115" instance=ExtResource("2_erpdm")]
+position = Vector2(-272, 176)
+
+[node name="Spikes108" parent="." index="116" instance=ExtResource("2_erpdm")]
+position = Vector2(-288, 176)
+
+[node name="Spikes109" parent="." index="117" instance=ExtResource("2_erpdm")]
+position = Vector2(-256, 176)
