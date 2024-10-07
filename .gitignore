@@ -17,6 +17,7 @@ export_presets.cfg
 .DS_Store
 Thumbs.db
 *.exe
+*.x86_64
 
 # Godot editor-specific files
 *.godot/

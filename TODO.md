@@ -1,0 +1,12 @@
+# TODO
+
+- Fix issue where you can fall faster than camera can keep up 
+- Add heart counter
+- Zoom out a bit more to see the level
+- Tweak jump mechanics
+- Tweak wall slide mechanics
+- Add more obstacles besides spikes
+- Add intro, bosses, story, and the actual thing that makes it a game...
+- Add proper end game screen
+- Change from selecting a button on the screen to pressing a button or key instead. Think like Y for reset and A for next level
+- Add ability to peak around level
