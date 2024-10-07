@@ -5,6 +5,7 @@
 - Zoom out a bit more to see the level
 - Tweak jump mechanics
 - Tweak wall slide mechanics
+- Allow player to climb up single vertical wall
 - Add more obstacles besides spikes
 - Add intro, bosses, story, and the actual thing that makes it a game...
 - Add proper end game screen

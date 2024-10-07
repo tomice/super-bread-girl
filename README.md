@@ -1,14 +1,16 @@
 # Super Bread Girl
 
 A speed running platformer similar to a certain popular game with the initials SMB.
+The "meat" one, not the "plumber" one. 10 levels total.
 
 ![super-bread-girl](https://github.com/user-attachments/assets/9618a947-c7f6-4b42-beec-2cec1a3cc085)
 
 ## To Use
 
-Grab one of the release builds and run it.
-Be sure to tell Windows, macOS, or whatever other OS that it's safe to run.
-It's safe, I promise!
+Grab one of the release builds for your platform, extract, and run it.
+Be sure to tell Windows, macOS, or Linux that it's safe to run.
+Linux users might need to `chmod +x` the binary.
+It's safe, I promise! If it's not, it's Godot's fault.
 
 ## Controls
 
@@ -32,14 +34,16 @@ and be able to modify stuff.
 ## Known Bugs or Issues
 
 - Music will not loop
-- Cannot double-jump after a wall jump
+- Double jumping before/after wall jump can be funky
+- Climbing a single vertical wall is more difficult than it should be
 - Character can fall faster than camera can keep up with
 
 ## Credits
 
-- Coding and Music: Tom Ice
+- Programming: Tom Ice
+- Music: Tom Ice
 - Bread Icon: [Caz Creates Games](https://caz-creates-games.itch.io/bread)
-- Original Tutorial and Level Art: [Heartbeast](https://github.com/uheartbeast)
+- Original Tutorial, Level Art, and Font: [Heartbeast](https://github.com/uheartbeast)
 
 ## License
 
