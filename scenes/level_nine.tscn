@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cjifd50d2cl13"]
 
 [ext_resource type="PackedScene" uid="uid://b7f02fpr2eti6" path="res://scenes/world.tscn" id="1_35un8"]
-[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/heart.tscn" id="2_2v704"]
+[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/butter.tscn" id="2_2v704"]
 [ext_resource type="PackedScene" uid="uid://bc6xhngnl6vhc" path="res://scenes/level_ten.tscn" id="2_n6lhy"]
 [ext_resource type="PackedScene" uid="uid://bdwsww0cnkt31" path="res://scenes/spikes.tscn" id="3_firiy"]
 
@@ -11,22 +11,22 @@ next_level = ExtResource("2_n6lhy")
 [node name="LevelTileMap" parent="." index="2"]
 layer_0/tile_data = PackedInt32Array(65535, 0, 3, 0, 131072, 3, -131065, 196608, 2, -196601, 196608, 1, -262137, 196608, 0, -131046, 196608, 2, -196582, 196608, 0, -65486, 196608, 2, -131022, 196608, 0, 44, 131072, 3, 43, 65536, 3, 42, 0, 3, -65465, 196608, 2, -131001, 196608, 1, -196537, 458752, 0, -196538, 262144, 3, -262074, 196608, 1, -327610, 196608, 1, -393146, 196608, 1, -458682, 196608, 0, -65520, 0, 3, -65519, 131072, 3, 36, 196608, 3, 59, 196608, 3, 66, 196608, 3, 196679, 0, 3, 196680, 65536, 3, 196681, 65536, 3, 196682, 65536, 3, 196683, 65536, 3, 196684, 65536, 3, 196685, 65536, 3, 196686, 65536, 3, 196687, 65536, 3, 196688, 65536, 3, 196689, 131072, 3, -262069, 196608, 0, -196533, 196608, 1, -130997, 196608, 1, -65461, 262144, 3, -65460, 131072, 3, 196696, 0, 3, 196697, 65536, 3, 196698, 65536, 3, 196699, 131072, 3, 196712, 131072, 3, 196711, 65536, 3, 196710, 0, 3, 262261, 0, 3, 262262, 131072, 3, 262268, 196608, 3)
 
-[node name="Heart" parent="." index="4" instance=ExtResource("2_2v704")]
+[node name="Butter" parent="." index="4" instance=ExtResource("2_2v704")]
 position = Vector2(952, -8)
 
-[node name="Heart2" parent="." index="5" instance=ExtResource("2_2v704")]
+[node name="Butter2" parent="." index="5" instance=ExtResource("2_2v704")]
 position = Vector2(1144, -56)
 
-[node name="Heart3" parent="." index="6" instance=ExtResource("2_2v704")]
+[node name="Butter3" parent="." index="6" instance=ExtResource("2_2v704")]
 position = Vector2(1224, -24)
 
-[node name="Heart4" parent="." index="7" instance=ExtResource("2_2v704")]
+[node name="Butter4" parent="." index="7" instance=ExtResource("2_2v704")]
 position = Vector2(1664, 40)
 
-[node name="Heart5" parent="." index="8" instance=ExtResource("2_2v704")]
+[node name="Butter5" parent="." index="8" instance=ExtResource("2_2v704")]
 position = Vector2(1992, 56)
 
-[node name="Heart6" parent="." index="9" instance=ExtResource("2_2v704")]
+[node name="Butter6" parent="." index="9" instance=ExtResource("2_2v704")]
 position = Vector2(584, -8)
 
 [node name="Spikes" parent="." index="10" instance=ExtResource("3_firiy")]

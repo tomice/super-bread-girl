@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://b7f02fpr2eti6" path="res://scenes/world.tscn" id="1_kjxfa"]
 [ext_resource type="PackedScene" uid="uid://bdwsww0cnkt31" path="res://scenes/spikes.tscn" id="2_cnha2"]
 [ext_resource type="PackedScene" uid="uid://b2urj0wdpcckw" path="res://scenes/level_seven.tscn" id="2_kkje3"]
-[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/heart.tscn" id="3_7747e"]
+[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/butter.tscn" id="3_7747e"]
 
 [node name="LevelSix" instance=ExtResource("1_kjxfa")]
 next_level = ExtResource("2_kkje3")
@@ -131,16 +131,16 @@ position = Vector2(656, 16)
 [node name="Spikes40" parent="." index="43" instance=ExtResource("2_cnha2")]
 position = Vector2(672, 16)
 
-[node name="Heart" parent="." index="44" instance=ExtResource("3_7747e")]
+[node name="Butter" parent="." index="44" instance=ExtResource("3_7747e")]
 position = Vector2(176, -40)
 
-[node name="Heart2" parent="." index="45" instance=ExtResource("3_7747e")]
+[node name="Butter2" parent="." index="45" instance=ExtResource("3_7747e")]
 position = Vector2(376, -40)
 
-[node name="Heart3" parent="." index="46" instance=ExtResource("3_7747e")]
+[node name="Butter3" parent="." index="46" instance=ExtResource("3_7747e")]
 position = Vector2(696, 8)
 
-[node name="Heart4" parent="." index="47" instance=ExtResource("3_7747e")]
+[node name="Butter4" parent="." index="47" instance=ExtResource("3_7747e")]
 position = Vector2(1128, 8)
 
 [node name="Spikes41" parent="." index="48" instance=ExtResource("2_cnha2")]

@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://b7f02fpr2eti6" path="res://scenes/world.tscn" id="1_w4l7n"]
 [ext_resource type="PackedScene" uid="uid://bp2785ij04ktn" path="res://scenes/level_two.tscn" id="2_yd2uk"]
 [ext_resource type="PackedScene" uid="uid://bdwsww0cnkt31" path="res://scenes/spikes.tscn" id="3_yv01c"]
-[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/heart.tscn" id="4_aa78d"]
+[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/butter.tscn" id="4_aa78d"]
 [ext_resource type="PackedScene" uid="uid://3u8nr8ddlv4p" path="res://scenes/level_tile_map.tscn" id="5_naae0"]
 [ext_resource type="Texture2D" uid="uid://cfme1ox470yjn" path="res://art/tileset.png" id="6_3imxs"]
 [ext_resource type="Texture2D" uid="uid://cibkknnwaieuy" path="res://art/slopes.png" id="7_ssqau"]
@@ -449,16 +449,16 @@ position = Vector2(112, 48)
 [node name="Spikes4" parent="." index="6" instance=ExtResource("3_yv01c")]
 position = Vector2(128, 48)
 
-[node name="Heart" parent="." index="7" instance=ExtResource("4_aa78d")]
+[node name="Butter" parent="." index="7" instance=ExtResource("4_aa78d")]
 position = Vector2(-8, -72)
 
-[node name="Heart2" parent="." index="8" instance=ExtResource("4_aa78d")]
+[node name="Butter2" parent="." index="8" instance=ExtResource("4_aa78d")]
 position = Vector2(144, -48)
 
-[node name="Heart3" parent="." index="9" instance=ExtResource("4_aa78d")]
+[node name="Butter3" parent="." index="9" instance=ExtResource("4_aa78d")]
 position = Vector2(232, -72)
 
-[node name="Heart4" parent="." index="10" instance=ExtResource("4_aa78d")]
+[node name="Butter4" parent="." index="10" instance=ExtResource("4_aa78d")]
 position = Vector2(264, -136)
 
 [node name="LevelTileMap2" parent="." index="11" instance=ExtResource("5_naae0")]

@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://b7f02fpr2eti6" path="res://scenes/world.tscn" id="1_7m30o"]
 [ext_resource type="PackedScene" uid="uid://cch5kpglq4kxj" path="res://scenes/level_four.tscn" id="2_y2gxu"]
-[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/heart.tscn" id="2_y18o2"]
+[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/butter.tscn" id="2_y18o2"]
 [ext_resource type="PackedScene" uid="uid://bdwsww0cnkt31" path="res://scenes/spikes.tscn" id="3_ltdw7"]
 
 [node name="LevelThree" instance=ExtResource("1_7m30o")]
@@ -11,28 +11,28 @@ next_level = ExtResource("2_y2gxu")
 [node name="LevelTileMap" parent="." index="2"]
 layer_0/tile_data = PackedInt32Array(65533, 262144, 3, 65534, 65536, 3, 65535, 65536, 3, 0, 65536, 3, 1, 65536, 3, 2, 65536, 3, 3, 458752, 3, -65533, 196608, 1, -131069, 196608, 1, -196605, 196608, 1, -262141, 196608, 1, -327677, 196608, 1, -393213, 196608, 1, -458749, 196608, 1, -524285, 196608, 1, -589821, 196608, 1, -655357, 196608, 1, -3, 196608, 1, -65539, 262144, 0, -65538, 458752, 3, -131074, 196608, 1, -196610, 196608, 1, -262146, 196608, 1, -327682, 196608, 1, -393218, 196608, 1, -458754, 196608, 1, -524290, 196608, 1, -589826, 196608, 1, -655362, 196608, 1, -720893, 196608, 1, -786429, 196608, 1, -851965, 196608, 1, -917501, 196608, 1, -983037, 196608, 1, -1048573, 196608, 1, -1114109, 196608, 1, -1179646, 262144, 3, -720898, 196608, 1, -786434, 196608, 1, -851970, 196608, 1, -917506, 196608, 1, -983042, 196608, 1, -1048578, 196608, 1, -1114114, 196608, 1, -1179645, 458752, 0, -1179650, 196608, 1, -1245186, 196608, 1, -1310722, 262144, 0, -1310721, 458752, 3, -1376257, 196608, 1, -1441793, 196608, 1, -1507329, 196608, 1, -1572865, 458752, 0, -1245182, 196608, 1, -1310718, 196608, 1, -1376254, 196608, 1, -1441790, 196608, 1, -1507326, 196608, 1, -1572862, 196608, 1, -1638398, 262144, 0, -1638397, 131072, 3, -1572866, 0, 3)
 
-[node name="Heart" parent="." index="4" instance=ExtResource("2_y18o2")]
+[node name="Butter" parent="." index="4" instance=ExtResource("2_y18o2")]
 position = Vector2(-24, -8)
 
-[node name="Heart2" parent="." index="5" instance=ExtResource("2_y18o2")]
+[node name="Butter2" parent="." index="5" instance=ExtResource("2_y18o2")]
 position = Vector2(40, -88)
 
-[node name="Heart3" parent="." index="6" instance=ExtResource("2_y18o2")]
+[node name="Butter3" parent="." index="6" instance=ExtResource("2_y18o2")]
 position = Vector2(-8, -152)
 
-[node name="Heart4" parent="." index="7" instance=ExtResource("2_y18o2")]
+[node name="Butter4" parent="." index="7" instance=ExtResource("2_y18o2")]
 position = Vector2(40, -240)
 
-[node name="Heart5" parent="." index="8" instance=ExtResource("2_y18o2")]
+[node name="Butter5" parent="." index="8" instance=ExtResource("2_y18o2")]
 position = Vector2(-8, -296)
 
-[node name="Heart6" parent="." index="9" instance=ExtResource("2_y18o2")]
+[node name="Butter6" parent="." index="9" instance=ExtResource("2_y18o2")]
 position = Vector2(24, -384)
 
-[node name="Heart7" parent="." index="10" instance=ExtResource("2_y18o2")]
+[node name="Butter7" parent="." index="10" instance=ExtResource("2_y18o2")]
 position = Vector2(48, -408)
 
-[node name="Heart8" parent="." index="11" instance=ExtResource("2_y18o2")]
+[node name="Butter8" parent="." index="11" instance=ExtResource("2_y18o2")]
 position = Vector2(-24, -344)
 
 [node name="Spikes" parent="." index="12" instance=ExtResource("3_ltdw7")]

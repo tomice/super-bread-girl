@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://b7f02fpr2eti6" path="res://scenes/world.tscn" id="1_lq4v1"]
 [ext_resource type="PackedScene" uid="uid://bdwsww0cnkt31" path="res://scenes/spikes.tscn" id="2_sbhaq"]
-[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/heart.tscn" id="3_m6jj7"]
+[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/butter.tscn" id="3_m6jj7"]
 
 [node name="LevelTen" instance=ExtResource("1_lq4v1")]
 
@@ -810,55 +810,55 @@ position = Vector2(1576, 384)
 [node name="Spikes267" parent="." index="270" instance=ExtResource("2_sbhaq")]
 position = Vector2(1592, 384)
 
-[node name="Heart" parent="." index="271" instance=ExtResource("3_m6jj7")]
+[node name="Butter" parent="." index="271" instance=ExtResource("3_m6jj7")]
 position = Vector2(888, -200)
 
-[node name="Heart2" parent="." index="272" instance=ExtResource("3_m6jj7")]
+[node name="Butter2" parent="." index="272" instance=ExtResource("3_m6jj7")]
 position = Vector2(1144, -40)
 
-[node name="Heart3" parent="." index="273" instance=ExtResource("3_m6jj7")]
+[node name="Butter3" parent="." index="273" instance=ExtResource("3_m6jj7")]
 position = Vector2(608, 88)
 
-[node name="Heart4" parent="." index="274" instance=ExtResource("3_m6jj7")]
+[node name="Butter4" parent="." index="274" instance=ExtResource("3_m6jj7")]
 position = Vector2(1528, -56)
 
-[node name="Heart5" parent="." index="275" instance=ExtResource("3_m6jj7")]
+[node name="Butter5" parent="." index="275" instance=ExtResource("3_m6jj7")]
 position = Vector2(768, 184)
 
-[node name="Heart6" parent="." index="276" instance=ExtResource("3_m6jj7")]
+[node name="Butter6" parent="." index="276" instance=ExtResource("3_m6jj7")]
 position = Vector2(1160, 136)
 
-[node name="Heart7" parent="." index="277" instance=ExtResource("3_m6jj7")]
+[node name="Butter7" parent="." index="277" instance=ExtResource("3_m6jj7")]
 position = Vector2(1752, 136)
 
-[node name="Heart8" parent="." index="278" instance=ExtResource("3_m6jj7")]
+[node name="Butter8" parent="." index="278" instance=ExtResource("3_m6jj7")]
 position = Vector2(2152, 104)
 
-[node name="Heart9" parent="." index="279" instance=ExtResource("3_m6jj7")]
+[node name="Butter9" parent="." index="279" instance=ExtResource("3_m6jj7")]
 position = Vector2(2392, 72)
 
-[node name="Heart10" parent="." index="280" instance=ExtResource("3_m6jj7")]
+[node name="Butter10" parent="." index="280" instance=ExtResource("3_m6jj7")]
 position = Vector2(2392, -56)
 
-[node name="Heart11" parent="." index="281" instance=ExtResource("3_m6jj7")]
+[node name="Butter11" parent="." index="281" instance=ExtResource("3_m6jj7")]
 position = Vector2(2840, 120)
 
-[node name="Heart12" parent="." index="282" instance=ExtResource("3_m6jj7")]
+[node name="Butter12" parent="." index="282" instance=ExtResource("3_m6jj7")]
 position = Vector2(3240, 136)
 
-[node name="Heart13" parent="." index="283" instance=ExtResource("3_m6jj7")]
+[node name="Butter13" parent="." index="283" instance=ExtResource("3_m6jj7")]
 position = Vector2(3456, 296)
 
-[node name="Heart14" parent="." index="284" instance=ExtResource("3_m6jj7")]
+[node name="Butter14" parent="." index="284" instance=ExtResource("3_m6jj7")]
 position = Vector2(3640, 200)
 
-[node name="Heart15" parent="." index="285" instance=ExtResource("3_m6jj7")]
+[node name="Butter15" parent="." index="285" instance=ExtResource("3_m6jj7")]
 position = Vector2(3864, 264)
 
-[node name="Heart16" parent="." index="286" instance=ExtResource("3_m6jj7")]
+[node name="Butter16" parent="." index="286" instance=ExtResource("3_m6jj7")]
 position = Vector2(4216, 264)
 
-[node name="Heart17" parent="." index="287" instance=ExtResource("3_m6jj7")]
+[node name="Butter17" parent="." index="287" instance=ExtResource("3_m6jj7")]
 position = Vector2(2632, 248)
 
 [node name="Spikes268" parent="." index="288" instance=ExtResource("2_sbhaq")]

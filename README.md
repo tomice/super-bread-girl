@@ -43,6 +43,7 @@ and be able to modify stuff.
 - Programming: Tom Ice
 - Music: Tom Ice
 - Bread Icon: [Caz Creates Games](https://caz-creates-games.itch.io/bread)
+- Butter Icon: [Donut-maker](https://www.pixilart.com/art/butter-sr2f2815051a2c7)
 - Original Tutorial, Level Art, and Font: [Heartbeast](https://github.com/uheartbeast)
 
 ## License

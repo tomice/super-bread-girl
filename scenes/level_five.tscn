@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://b7f02fpr2eti6" path="res://scenes/world.tscn" id="1_mdarh"]
 [ext_resource type="PackedScene" uid="uid://b64hbkak41f48" path="res://scenes/level_six.tscn" id="2_2uimv"]
-[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/heart.tscn" id="2_uj2l7"]
+[ext_resource type="PackedScene" uid="uid://c5a3efcgch2to" path="res://scenes/butter.tscn" id="2_uj2l7"]
 [ext_resource type="PackedScene" uid="uid://bdwsww0cnkt31" path="res://scenes/spikes.tscn" id="3_8vkf6"]
 
 [node name="LevelFive" instance=ExtResource("1_mdarh")]
@@ -11,31 +11,31 @@ next_level = ExtResource("2_2uimv")
 [node name="LevelTileMap" parent="." index="2"]
 layer_0/tile_data = PackedInt32Array(65534, 262144, 3, 65535, 65536, 3, 0, 65536, 3, 1, 65536, 3, -2, 196608, 1, -65538, 196608, 1, -131074, 196608, 1, -196610, 196608, 1, -262146, 196608, 1, -327682, 196608, 1, -393218, 196608, 1, -458754, 196608, 1, -524290, 196608, 1, -589826, 196608, 1, -655362, 196608, 1, -720898, 196608, 1, -786434, 196608, 0, 2, 65536, 3, 3, 65536, 3, 4, 65536, 3, 5, 65536, 3, -65530, 262144, 2, -65529, 65536, 0, -65528, 65536, 0, -65527, 65536, 0, -65526, 65536, 0, -65525, 131072, 0, 11, 327680, 3, 12, 65536, 3, 13, 65536, 3, 14, 65536, 3, 15, 65536, 3, 6, 393216, 3, 7, 65536, 2, 8, 65536, 2, 9, 65536, 2, 10, 65536, 2, -131066, 196608, 0, -262136, 0, 3, -262135, 65536, 3, -262134, 65536, 3, -262133, 65536, 3, -262132, 458752, 3, -327668, 196608, 1, -393204, 196608, 1, -458740, 196608, 1, -524276, 196608, 1, -589812, 196608, 0, 16, 65536, 3, 17, 65536, 3, 18, 65536, 3, 19, 65536, 3, 20, 65536, 3, 21, 458752, 3, -65515, 196608, 1, -131051, 196608, 1, -196587, 196608, 1, -262123, 196608, 1, -327659, 262144, 0, -327658, 65536, 3, -327657, 65536, 3, -327656, 65536, 3, -327655, 65536, 3, -327654, 65536, 3, -327653, 458752, 3, -393189, 262144, 0, -393188, 458752, 3, -458724, 262144, 0, -458723, 458752, 3, -524259, 196608, 1, -589795, 196608, 1, -655331, 262144, 0, -655330, 458752, 3, -720866, 262144, 4, -786402, 458752, 0, -786403, 262144, 3, -851939, 458752, 0, -851940, 262144, 3, -917476, 458752, 0, -917477, 262144, 3, -983013, 458752, 0, -983014, 65536, 3, -983015, 65536, 3, -983016, 65536, 3, -983017, 262144, 3, -1048553, 458752, 0, -786412, 65536, 3, -786413, 65536, 3, -786414, 65536, 3, -786415, 65536, 3, -786416, 0, 3, -720888, 131072, 3, -720889, 65536, 3, -720890, 65536, 3, -720891, 65536, 3, -720892, 65536, 3, -720893, 65536, 3, -720894, 0, 3, -720864, 65536, 3, -720863, 65536, 3, -720862, 65536, 3, -720861, 65536, 3, -720860, 458752, 0, -655324, 262144, 3, -655323, 65536, 3, -655322, 65536, 3, -655321, 65536, 3, -655320, 65536, 3, -655319, 65536, 3, -655318, 65536, 3, -655317, 65536, 3, -655316, 65536, 3, -655315, 458752, 0, -589779, 196608, 1, -524243, 196608, 1, -458707, 196608, 1, -393171, 262144, 3, -393170, 458752, 0, -327633, 65536, 3, -327632, 65536, 3, -327631, 65536, 3, -327630, 65536, 3, -327629, 65536, 3, -327628, 65536, 3, -327627, 65536, 3, -327626, 131072, 3, -327634, 262144, 3, -720865, 65536, 3, -1048554, 65536, 3, -1048555, 262144, 0, -983019, 196608, 1, -917483, 196608, 1, -851947, 196608, 1, -786411, 458752, 3, -524233, 0, 3, -524232, 65536, 3, -524231, 65536, 3, -524230, 65536, 3, -524229, 65536, 3, -524228, 65536, 3, -524227, 65536, 3, -524226, 65536, 3, -851909, 262144, 0, -851908, 65536, 3, -851907, 65536, 3, -851906, 65536, 3, -851905, 65536, 3, -851904, 458752, 0, -786368, 196608, 1, -720832, 458752, 3, -720833, 262144, 0, -655297, 196608, 1, -589761, 196608, 1, -524225, 458752, 3, -786373, 196608, 2)
 
-[node name="Heart" parent="." index="4" instance=ExtResource("2_uj2l7")]
+[node name="Butter" parent="." index="4" instance=ExtResource("2_uj2l7")]
 position = Vector2(104, -40)
 
-[node name="Heart2" parent="." index="5" instance=ExtResource("2_uj2l7")]
+[node name="Butter2" parent="." index="5" instance=ExtResource("2_uj2l7")]
 position = Vector2(184, -72)
 
-[node name="Heart3" parent="." index="6" instance=ExtResource("2_uj2l7")]
+[node name="Butter3" parent="." index="6" instance=ExtResource("2_uj2l7")]
 position = Vector2(-24, -216)
 
-[node name="Heart4" parent="." index="7" instance=ExtResource("2_uj2l7")]
+[node name="Butter4" parent="." index="7" instance=ExtResource("2_uj2l7")]
 position = Vector2(104, -184)
 
-[node name="Heart5" parent="." index="8" instance=ExtResource("2_uj2l7")]
+[node name="Butter5" parent="." index="8" instance=ExtResource("2_uj2l7")]
 position = Vector2(360, -264)
 
-[node name="Heart6" parent="." index="9" instance=ExtResource("2_uj2l7")]
+[node name="Butter6" parent="." index="9" instance=ExtResource("2_uj2l7")]
 position = Vector2(472, -168)
 
-[node name="Heart7" parent="." index="10" instance=ExtResource("2_uj2l7")]
+[node name="Butter7" parent="." index="10" instance=ExtResource("2_uj2l7")]
 position = Vector2(760, -88)
 
-[node name="Heart8" parent="." index="11" instance=ExtResource("2_uj2l7")]
+[node name="Butter8" parent="." index="11" instance=ExtResource("2_uj2l7")]
 position = Vector2(1016, -184)
 
-[node name="Heart9" parent="." index="12" instance=ExtResource("2_uj2l7")]
+[node name="Butter9" parent="." index="12" instance=ExtResource("2_uj2l7")]
 position = Vector2(1000, -216)
 
 [node name="Spikes" parent="." index="13" instance=ExtResource("3_8vkf6")]

@@ -1,18 +1,20 @@
 [gd_scene load_steps=4 format=3 uid="uid://c5a3efcgch2to"]
 
-[ext_resource type="Texture2D" uid="uid://dd3anshbhvbso" path="res://art/heart.png" id="1_dl0ru"]
-[ext_resource type="Script" path="res://scripts/heart.gd" id="1_vdaqn"]
+[ext_resource type="Script" path="res://scripts/butter.gd" id="1_wdjdp"]
+[ext_resource type="Texture2D" uid="uid://ck1ysfygl4amk" path="res://art/butter.png" id="2_3kyrg"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_wdk0s"]
-radius = 5.0
+radius = 4.0
 
-[node name="Heart" type="Area2D" groups=["Hearts"]]
+[node name="Butter" type="Area2D" groups=["Butter"]]
 collision_layer = 0
 collision_mask = 2
-script = ExtResource("1_vdaqn")
+script = ExtResource("1_wdjdp")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_dl0ru")
+position = Vector2(-1.19209e-07, 0.125)
+scale = Vector2(0.46875, 0.359375)
+texture = ExtResource("2_3kyrg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_wdk0s")
