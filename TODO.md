@@ -1,7 +1,7 @@
 # TODO
 
 - Fix issue where you can fall faster than camera can keep up 
-- Add heart counter
+- Add butter counter to go with the tween. Think like Zelda hearts. Might need an entire Collection Manager
 - Zoom out a bit more to see the level
 - Tweak jump mechanics
 - Tweak wall slide mechanics

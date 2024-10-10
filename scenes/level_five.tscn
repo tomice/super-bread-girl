@@ -86,6 +86,9 @@ position = Vector2(64, 56)
 [node name="Spikes16" parent="." index="28" instance=ExtResource("3_8vkf6")]
 position = Vector2(80, 56)
 
+[node name="Spikes16" parent="Spikes16" index="2" instance=ExtResource("3_8vkf6")]
+position = Vector2(8, 0)
+
 [node name="Spikes17" parent="." index="29" instance=ExtResource("3_8vkf6")]
 position = Vector2(-416, 56)
 
