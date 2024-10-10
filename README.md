@@ -3,7 +3,7 @@
 A speed running platformer similar to a certain popular game with the initials SMB.
 The "meat" one, not the "plumber" one. 10 levels total. Collect all the butter!
 
-![super-bread-girl](https://github.com/user-attachments/assets/9618a947-c7f6-4b42-beec-2cec1a3cc085)
+![super-bread-girl](https://github.com/user-attachments/assets/ebb662a2-7744-42cb-8894-460d22602888)
 
 ## To Use
 
